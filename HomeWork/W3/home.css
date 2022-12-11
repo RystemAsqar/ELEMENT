@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+table {
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+ul {
+    list-style-type: none;
+}
+li:last-child:hover{
+    font-size: 28px;
+    color: aqua;
+}
+li:first-child:hover{
+    font-size: 28px;
+    color:burlywood;
+}
+li:hover{
+    font-size: 28px;
+    color: rgb(237, 158, 48);
+    z-index: 2;
+}
